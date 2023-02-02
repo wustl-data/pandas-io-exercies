@@ -19,4 +19,6 @@ Implement a while loop that takes the dataframe and writes it to a CSV using the
 See the Pandas [I/O docs](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html) if you need help with syntax.
 
 4. Create a final function that uses the previous DataFrame with the results of the benchmarking. Use the built in Pandas bar plot functions to create a plot of the results
+
+5. Modify your previous functions to incoporate SQL, HDF, and Parquet data types.
   
