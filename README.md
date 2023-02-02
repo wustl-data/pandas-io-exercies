@@ -4,6 +4,8 @@
 
 **FYI: Because we're writing to databases and using c-performant packages such as pytables (for hdf5 file format), we must perform this exercise in Codespaces, which unlike replit, lets us create/write to a SQL database, and install the `pytables` library for the HDF5 file format. `pytables` suggests Anaconda for installation, so that's what we're using (specified in the devcontianer configuration)**
 
+0. Open this repo in a codespace OR clone and open in VS Code locally. With the dev container extension installed, open the VS Code command palette and search for "add dev container configuration files." Choose the Anaconda3 + PosgreSQL option. Then select the "poetry" option for "features". Use the default settings and confirm that you have a `.devcontainer` folder in your project folder. Rebuild your codespace, or select "reopen in dev container" from the comman palette" if you're working locally.
+
 1. Create a function that takes the number of rows, number of columns, and dtype as input arguments and outputs a DataFrame with simulated data from Faker. You only need to implement bool, int, float, str, and datetime dtypes.
 
 2. Create a second function that takes:
