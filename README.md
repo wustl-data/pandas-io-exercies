@@ -6,9 +6,9 @@
 
 0. Open this repo in a codespace OR clone and open in VS Code locally. With the dev container extension installed, open the VS Code command palette and search for "add dev container configuration files." Choose the Anaconda3 + PosgreSQL option. Use the default settings and confirm that you have a `.devcontainer` folder in your project folder. Rebuild your codespace, or select "reopen in dev container" from the comman palette" if you're working locally.
 
-1. Create a function that takes the number of rows, number of columns, and dtype as input arguments and outputs a DataFrame with simulated data from Faker. You only need to implement bool, int, float, str, and datetime dtypes.
+1. Create a function that takes the number of rows, number of columns, and a string that designates the dtype as input arguments and outputs a DataFrame with simulated data using the dtype provided from Faker. You only need to implement bool, int, float, str, and datetime dtypes.
 
-2. Create a third function that takes
+2. Create a function that takes
 - a dataframe
 - A string designating "columns" or "rows"
 - A string designating a dtype
