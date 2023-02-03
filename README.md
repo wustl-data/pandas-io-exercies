@@ -8,8 +8,7 @@
 
 1. Create a function that takes the number of rows, number of columns, and dtype as input arguments and outputs a DataFrame with simulated data from Faker. You only need to implement bool, int, float, str, and datetime dtypes.
 
-
-3. Create a third function that takes
+2. Create a third function that takes
 - a dataframe
 - A string designating "columns" or "rows"
 - A string designating a dtype
@@ -18,7 +17,7 @@ Implement a while loop that takes the dataframe and writes it to a CSV using the
 
 See the Pandas [I/O docs](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html) if you need help with syntax.
 
-4. Create a final function that uses the previous DataFrame with the results of the benchmarking. Use the built in Pandas bar plot functions to create a plot of the results
+3. Create a final function that uses the previous DataFrame with the results of the benchmarking. Use the built in Pandas bar plot functions to create a plot of the results
 
-5. Modify your previous functions to incoporate SQL, HDF, and Parquet data types.
+4. Modify your previous functions to incoporate SQL, HDF, and Parquet data types.
   
